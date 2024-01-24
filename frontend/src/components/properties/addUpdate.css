@@ -1,0 +1,73 @@
+/* Base styling */
+.form-container {
+    background-color: #ffffff; /* Light gray background */
+    padding: 30px;
+    border-radius: 5px;
+    width: 70%; /* Adjust width as needed */
+    margin: 0 auto; /* Center horizontally */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+  
+.form-fields{
+    width: 50%;
+    margin-left: 100px;
+}
+
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .form-container {
+      width: 80%; /* Wider on smaller screens */
+    }
+  }
+  
+  /* Heading */
+  .form-container h2 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Inputs */
+  .form-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  /* Button */
+  .form-container button {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Hover effect for button */
+  .form-container button:hover {
+    background-color: #3e8e41; /* Darker green on hover */
+  }
+  
+
+  .image-container {
+    float: left; /* Position the image container to the left */
+    width: 50%;  /* Adjust width as needed for image proportion */
+    height: 500px;  /* Ensure image fills the full height of its container */
+    margin-right: 20px; /* Add spacing between image and form */
+  }
+  
+  .image-container img {
+    width: 100%;  /* Make image fill the entire width of its container */
+    height: 100%;  /* Make image fill the entire height of its container */
+    object-fit: cover;  /* Prevent image distortion, cropping if necessary */
+    border-radius: 5px; /* Optional: Rounded corners */
+  }
+
+ 

@@ -1,0 +1,48 @@
+.card-login {
+  margin-top: 200px;
+  position: relative;
+  max-width: 600px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 3;  /* Set a higher z-index for the card */
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border-radius: 10px; /* Rounded corners */
+}
+
+.card-login .login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-login .login-form input {
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  background-color: transparent;
+  color: black;
+}
+
+.card-login .login-form input:focus {
+  outline: none;
+  border-color: rgba(255, 255, 255, 0.8);
+}
+
+
+
+
+.circle-left-top {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: #00FF75;
+  margin-top: 200px;
+  position: absolute;
+  z-index: 0; /* Set a lower z-index for the circle */
+  margin-left: 200px;
+  
+}
